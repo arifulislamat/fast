@@ -1,0 +1,26 @@
+{
+  "name": "fast",
+  "description": "A JavaScript network speedtest based on Web Worker.",
+  "author": "Ariful Islam <ariful@firora.com>",
+  "homepage": "https://github.com/arifulislamat/fast",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifulislamat/fast.git"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "build:dev": "lerna run build:dev",
+    "setup": "npm ci && lerna bootstrap",
+    "setup:dev": "npm i && lerna bootstrap",
+    "start": "lerna run start --stream",
+    "start:dev": "lerna run start:dev --stream",
+    "test": "lerna run test"
+  },
+  "bugs": {
+    "url": "https://github.com/arifulislamat/fast/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

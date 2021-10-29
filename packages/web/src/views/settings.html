@@ -1,0 +1,55 @@
+<section id="settings" hidden>
+	<div class="flex">
+		<h2>Settings</h2>
+		<button id="settings-mode" class="btn-link" aria-label="Advanced mode" hidden>Advanced mode</button>
+	</div>
+
+	<form>
+		<fieldset>
+			<legend>General</legend>
+			<div class="field">
+				<label>Theme</label>
+				<div>
+					<input id="theme-light" type="radio" name="theme" value="light" checked>
+					<label for="theme-light">
+						Light
+					</label>
+				</div>
+				<div>
+					<input id="theme-dark" type="radio" name="theme" value="dark">
+					<label for="theme-dark">
+						Dark
+					</label>
+				</div>
+			</div>
+			<legend>Test</legend>
+			<div id="serverField" class="field" hidden>
+				<label>Server</label>
+				<div>
+					<select id="server" name="server"></select>
+				</div>
+			</div>
+			<div class="field">
+				<label>Connections</label>
+				<div>
+					<select id="connections" name="config.connections">
+						<option value="multi">Multiple</option>
+						<option value="single">Single</option>
+					</select>
+				</div>
+			</div>
+			<div class="field">
+				<label>Preset</label>
+				<div>
+					<select id="preset" name="preset">
+						<option value="fast">Fast - less accurate but less data used</option>
+						<option value="normal" selected>Normal</option>
+						<option value="accurate">Accurate - slower and more data used</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+		<button type="submit" class="btn-dark" aria-label="Save settings">Save</button>
+		<span id="save-confirmation">Saved!</span>
+	</form>
+</section>

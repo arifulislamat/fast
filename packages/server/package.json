@@ -1,0 +1,33 @@
+{
+  "name": "fast-server",
+  "version": "0.5.3",
+  "description": "A JavaScript network speedtest based on Web Worker.",
+  "author": "Ariful Islam <ariful@firora.com>",
+  "homepage": "https://github.com/arifulislamat/fast",
+  "license": "MIT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifulislamat/fast"
+  },
+  "scripts": {
+    "server": "export BASE_PATH=../web/dist HTTP_PORT=5080 HTTPS_PORT=5443; node server.js",
+    "server:watch": "export BASE_PATH=../web/dist HTTP_PORT=5080 HTTPS_PORT=5443; nodemon server.js",
+    "start": "npm run server",
+    "start:dev": "npm run server:watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/arifulislamat/fast/issues"
+  },
+  "dependencies": {
+    "gm": "^1.23.1",
+    "request-ip": "^2.1.3",
+    "uuid": "^3.4.0",
+    "websocket": "^1.0.32"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "nodemon": "^2.0.6"
+  }
+}

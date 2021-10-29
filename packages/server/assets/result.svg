@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 350 200" style="enable-background:new 0 0 350 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1A1A1A;}
+	.st1{fill:#333333;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Roboto-Regular';}
+	.st4{font-size:24px;}
+	.st5{font-size:12px;}
+	.st6{font-size:15px;}
+	.st7{font-size:40px;}
+	.st8{font-family:'Roboto-Light';}
+</style>
+<rect id="background" class="st0" width="350" height="200"/>
+<g id="header">
+	<rect class="st1" width="350" height="40"/>
+	<g id="logo" transform="translate(4, 4)">
+		<ellipse class="st2" cx="16" cy="16" rx="14" ry="14"/>
+		<path d="M15,4C6.6,4.8,1.6,13.5,5.2,20.9c0.7,1.5,2.2,3.4,2.5,3.1c0.1-0.1,0.4-0.4,0.8-0.8l0.7-0.7l-0.4-0.5
+			C3.1,15.7,7.8,5.9,16.4,6.2c8.3,0.3,12.4,10.1,6.8,16.1c-0.4,0.5-0.5,0.3,0.5,1.2l0.8,0.8l0.2-0.2c1.4-1.4,2.6-3.6,3.1-5.7
+			C29.4,10.5,23,3.3,15,4 M17.4,12.9c-1.8,1.5-3.4,2.8-3.4,2.8c-0.1,0.1,1.9,2.2,2,2.2c0,0,5.8-6.7,5.8-6.8c0-0.1-0.9-1-1-1
+			C20.8,10.1,19.2,11.4,17.4,12.9"/>
+	</g>
+	<text id="title" transform="matrix(1 0 0 1 42 28)" class="st2 st3 st4">Firora Fast</text>
+	<text id="date" transform="matrix(1 0 0 1 305.1855 16)" class="st2 st3 st5">{{date}}</text>
+	<text id="time" transform="matrix(1 0 0 1 305.0508 32)" class="st2 st3 st5">{{time}}</text>
+</g>
+<g id="content" transform="translate(0, 40)">
+	<g id="latency">
+		<text transform="matrix(1 0 0 1 76.0083 24)" class="st2 st3 st6">LATENCY</text>
+		<text transform="matrix(1 0 0 1 -41.7969 60)" class="st2 st3 st7">{{latency}}</text>
+		<text transform="matrix(1 0 0 1 142 60)" class="st2 st8 st5">ms</text>
+	</g>
+	<g id="jitter">
+		<text transform="matrix(1 0 0 1 251.8652 24)" class="st2 st3 st6">JITTER</text>
+		<text transform="matrix(1 0 0 1 165.7422 60)" class="st2 st3 st7">{{jitter}}</text>
+		<text transform="matrix(1 0 0 1 302 60)" class="st2 st8 st5">ms</text>
+	</g>
+	<g id="download">
+		<text transform="matrix(1 0 0 1 58.4741 84)" class="st2 st3 st6">DOWNLOAD</text>
+		<text transform="matrix(1 0 0 1 -88.4766 120)" class="st2 st3 st7">{{download}}</text>
+		<text transform="matrix(1 0 0 1 142 120)" class="st2 st8 st5">Mbps</text>
+	</g>
+	<g id="upload">
+		<text transform="matrix(1 0 0 1 243.4351 84)" class="st2 st3 st6">UPLOAD</text>
+		<text transform="matrix(1 0 0 1 124.5312 120)" class="st2 st3 st7">{{upload}}</text>
+		<text transform="matrix(1 0 0 1 302 120)" class="st2 st8 st5">Mbps</text>
+	</g>
+	<g id="host">
+		<text transform="matrix(1 0 0 1 101.145 145)" class="st2 st3 st6">HOST</text>
+		<text transform="matrix(1 0 0 1 145 145)" class="st2 st3 st6">{{org}}</text>
+	</g>
+</g>
+</svg>

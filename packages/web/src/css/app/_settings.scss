@@ -1,0 +1,28 @@
+.flex h2 {
+  flex: 1;
+}
+
+#settings {
+  .field.custom {
+    display: none;
+  }
+  form.custom .field.custom {
+    display: block;
+  }
+}
+
+#save-confirmation {
+  opacity: 0;
+  padding: 0 1em;
+
+  &.fade {
+    animation: fade 4s forwards;
+  }
+}
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  75%  { opacity: 1; }
+  100% { opacity: 0; }
+}

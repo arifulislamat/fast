@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#f5f5f5">
+	<title>Speed Test</title>
+	<meta name="description" content="An HTML 5 speed test." />
+	<base href="/">
+	<link rel="manifest" href="manifest.json">
+	<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+	<div id="main">
+		<header>
+			<h1>
+				<a href="/">
+					<span id="logo" class="logo"></span>
+					<span id="title">Speed Test</span>
+				</a>
+			</h1>
+
+			<nav id="commands">
+				<a id="show-about" class="btn-link" href="about" title="Get information about this speed test"><i
+						class="icon icon-info"></i></a>
+				<a id="results-history" class="btn-link" href="results" title="History of previous results"><i
+						class="icon icon-history"></i></a>
+				<a id="show-settings" class="btn-link" href="settings" title="Configure the speed test settings"><i
+						class="icon icon-cog"></i></a>
+			</nav>
+		</header>
+
+		${require('./views/alerts.html')}
+		${require('./views/about.html')}
+		${require('./views/history.html')}
+		${require('./views/settings.html')}
+		${require('./views/share.html')}
+		${require('./views/speedtest.html')}
+	</div>
+</body>
+
+</html>
