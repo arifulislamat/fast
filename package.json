@@ -1,12 +1,12 @@
 {
-  "name": "fast",
+  "name": "speedtest",
   "description": "A JavaScript network speedtest based on Web Worker.",
-  "author": "Ariful Islam <ariful@firora.com>",
-  "homepage": "https://github.com/arifulislamat/fast",
+  "author": "Michaël Ferrand <michael@e7d.io>",
+  "homepage": "https://github.com/e7d/speedtest#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifulislamat/fast.git"
+    "url": "https://github.com/e7d/speedtest.git"
   },
   "scripts": {
     "build": "lerna run build",
@@ -18,7 +18,7 @@
     "test": "lerna run test"
   },
   "bugs": {
-    "url": "https://github.com/arifulislamat/fast/issues"
+    "url": "https://github.com/e7d/speedtest/issues"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

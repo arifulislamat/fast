@@ -1,14 +1,14 @@
 {
-  "name": "fast-server",
+  "name": "speedtest-server",
   "version": "0.5.3",
   "description": "A JavaScript network speedtest based on Web Worker.",
-  "author": "Ariful Islam <ariful@firora.com>",
-  "homepage": "https://github.com/arifulislamat/fast",
+  "author": "Michaël Ferrand <michael@e7d.io>",
+  "homepage": "https://github.com/e7d/speedtest#readme",
   "license": "MIT",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifulislamat/fast"
+    "url": "https://github.com/e7d/speedtest.git"
   },
   "scripts": {
     "server": "export BASE_PATH=../web/dist HTTP_PORT=5080 HTTPS_PORT=5443; node server.js",
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/arifulislamat/fast/issues"
+    "url": "https://github.com/e7d/speedtest/issues"
   },
   "dependencies": {
     "gm": "^1.23.1",
